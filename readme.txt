@@ -28,7 +28,7 @@ You might need to recreate slugs after modifying the way the slugs generated and
 
 1. Make backup of your database. Make even one more backup.
 
-2. Upload the folder rp-news-ticker with its contents to wp-content/plugins/
+2. Upload the folder rp-recreate-slugs with its contents to wp-content/plugins/
 
 3. Activate the plugin.
 
