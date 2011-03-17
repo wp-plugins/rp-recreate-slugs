@@ -65,5 +65,5 @@ Answer:     The best way to stimulate it is to send a donation from the develope
 
 
 == Changelog ==
-= 1.3.7 =
+= 1.0 =
 * 2011-03-16 - Initial release.
