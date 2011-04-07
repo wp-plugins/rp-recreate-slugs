@@ -5,7 +5,7 @@ Plugin URI: http://www.rationalplanet.com/2011/03/free-plugin-utility-for-wordpr
 Description: Recreate articles and pages slugs with the most current ruleset. Useful when slug generation is changed or updated, especially with transliteration. Global slugs recovery. Saves sites. Use with care.
 Author: Alexander Missa
 Author URI: http://www.rationalplanet.com
-Version: 1.0
+Version: 1.1
 License: GPL GPL2
 
     Copyright 2011 Alexander Missa (email : http://www.rationalplanet.com)

@@ -61,7 +61,7 @@ class rp_rec_slugs_plugin {
 		$data       = array();
         $message    = array();
 
-        if(!session_id()){session_start();}
+        if(!@session_id()){@session_start();}
         $num_ch_posts       = $_SESSION['rpmessage']['process_posts'] ;
         $num_ch_pages       = $_SESSION['rpmessage']['process_pages'] ;
         $data['next_from']  = isset($_SESSION['rpmessage']['next_from']) ? intval($_SESSION['rpmessage']['next_from']) : 1;
@@ -141,7 +141,7 @@ class rp_rec_slugs_plugin {
         if(isset($_POST['process_pages'])){
             $num_ch_pages = rp_rec_slugs_plugin::process_posts('page');
         }
-        if(!session_id()){session_start();}
+        if(!@session_id()){@session_start();}
         $_SESSION['rpmessage']['process_posts'] = $num_ch_posts;
         $_SESSION['rpmessage']['process_pages'] = $num_ch_pages;
 		wp_redirect($_POST['_wp_http_referer']);
