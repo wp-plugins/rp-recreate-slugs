@@ -5,7 +5,7 @@ Donate link: http://www.rationalplanet.com/2011/03/free-plugin-utility-for-wordp
 Tags: utility, slug, permalink, post, page, transliterate, error 404, recovery, redirection
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: tags/1.0
+Stable tag: tags/1.1
 
 Recreate articles and pages slugs.
 
@@ -33,8 +33,10 @@ You might need to recreate slugs after modifying the way the slugs generated and
 3. Activate the plugin.
 
 
-
 == Upgrade Notice ==
+= 1.1 =
+* Fully compatible with the previous release.
+
 = 1.0 =
 * Initial release.
 
@@ -65,5 +67,8 @@ Answer:     The best way to stimulate it is to send a donation from the develope
 
 
 == Changelog ==
+= 1.1 =
+* 2011-03-26 - Bugfix release.
+
 = 1.0 =
 * 2011-03-16 - Initial release.
